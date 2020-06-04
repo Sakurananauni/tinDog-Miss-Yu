@@ -1,0 +1,657 @@
+
+
+/* HTML ELEMENTS */
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+
+
+
+/* HEADING SECTION */
+
+
+.biggest-heading{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+.section-heading{
+    line-height: 1.5;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+
+
+/* SECTIONS */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #ffffff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+
+
+/* CONTAINER SECTION */
+
+
+.container-fluid{
+    padding: 8% 15%;
+}
+
+
+
+
+/* NAV BAR SECTION */
+
+
+.navbar{
+    padding: 0 0 4.5rem;
+} 
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+ 
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2 rem;
+}
+
+
+/* TITLE SECTION */
+
+
+#title .container-fluid{
+    padding: 3% 15% 8%;
+    text-align: left;
+}
+
+/*download-buttons */
+.download-buttons{
+    margin: 7% 3% 7% 0;
+
+}
+
+/* title-image */
+.title-image{
+    width: 60%;
+    transform: rotate(30deg);
+    position: absolute;
+    right: 25%;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1000px){
+
+    #title{
+       text-align: center;
+    }
+
+    .title-image{
+        transform: rotate(0);
+        position: static;
+    }
+}
+
+
+/* Features */
+#features{
+    
+    position: relative;
+    
+}
+
+.feature-title{
+    font-size: 1.5rem;
+    
+  
+}
+
+.feature-box{
+    
+    padding: 4%;
+}
+.feature-icon{
+    color: #ef8172;
+    padding-bottom: 15%;
+} 
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
+
+
+/* Testimonial Section */
+
+#testimonials{
+    
+    
+    background-color: #ef8172;
+}
+
+
+
+.testimonial-text{
+    line-height: 1.5;
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+
+.testimonial-image{
+    width: 15%;
+    border-radius:100% ;
+    margin: 2px;
+}
+
+/* Press Section */
+
+#press{
+    background-color: #ef8172;
+    
+}
+        
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding: 100px;
+    
+}
+
+.price-text{
+    line-height: 1.5;
+    
+    font-size: 3rem;
+
+}
+
+
+.pricing-column{
+    padding: 4% 2%;
+}
+
+
+
+/* Call To Action Section */
+
+
+
+
+
+/* Footer Section */
+
+
+
+
+.footer-icons{
+    margin: 0 1% 2%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+/*.font1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2;
+}
+.font2{
+   
+}*/
